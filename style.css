@@ -1,0 +1,18 @@
+.game-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 310px;
+  width: 310px;
+  border: 1px solid black;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
